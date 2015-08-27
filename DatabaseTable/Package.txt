@@ -1,0 +1,23 @@
+001	Economy	        Honeymoon	Dhaka-Coxsbazar-Dhaka	Hotel Sea-Lion	  5 day 4 night	  12000
+002	Economy	        Student Package	Dhaka-Bogra-Dhaka	Hotel Onirban	  2 day 1 night	  2500
+003	Economy	        Eid Special	Dhaka-Kuakata-Dhaka	Hotel Purbasha	  3 day 2 night	  8000
+004	Economy	        Summer Special	Dhaka-CoxsBazar-Dhaka	Hotel Sea-Lion	  3 day 2 night	  8500
+005	Standard	Honeymoon	Dhaka-Coxsbazar-Dhaka	Hotel Sea-Star	  5 day 4 night	  15000
+006	Standard	Student Package	Dhaka-Bogra-Dhaka	Hotel Dream	  2 day 1 night	  3000
+007	Standard	Eid Special	Dhaka-Kuakata-Dhaka	Hotel Greenland	  3 day 2 night	  9000
+008	Standard	Summer Special	Dhaka-CoxsBazar-Dhaka	Hotel Sea-Star	  3 day 2 night	  9500
+009	Luxury	        Honeymoon	Dhaka-Coxsbazar-Dhaka	Hotel Golden-Inn  5 day 4 night	  20000
+010	Luxury	        Student Package	Dhaka-Bogra-Dhaka	Kingdom Palace	  2 day 1 night	  5000
+011	Luxury	        Eid Special	Dhaka-Kuakata-Dhaka	Hotel Marmaid 	  3 day 2 night	  12000
+012	Luxury	        Summer Special	Dhaka-CoxsBazar-Dhaka	Hotel Golden-Inn  3 day 2 night	  13000
+NULL	NULL	        NULL	        NULL	                NULL	          NULL	          NULL
+
+create table package(
+Package_Id varchar(20),
+Cost_Type varchar(10),
+Package_Type varchar(40),
+Destination varchar(100),
+Hotel varchar(20),
+Day varchar(20),
+Price int
+)

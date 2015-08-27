@@ -1,0 +1,15 @@
+1	ghgfhfg	  k	   fgdfgdfg	007
+2	dfgdfgd	  l	   fdgdfgf	007
+3	dsfsdf	  sdfsd    sdfsd	003
+4	s	  d	   sds	        006
+5	f	  c	   k	        006
+6	d	  d	   d	        001
+9	fdg	  e	   e	        006
+
+create table Booking(
+Booking_No int PRIMARY KEY IDENTITY,
+Name varchar(30),
+E_mail varchar(50),
+Phone varchar(20),
+Package_ID varchar(20)
+)
